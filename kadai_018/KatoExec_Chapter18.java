@@ -5,10 +5,15 @@ public class KatoExec_Chapter18 {
 		KatoTaro_Chapter18 katoTaro = new KatoTaro_Chapter18();
 		KatoIchiro_Chapter18 katoIchiro = new KatoIchiro_Chapter18();
 		KatoHanako_Chapter18 katoHanako = new KatoHanako_Chapter18();
-		katoTaro.execIntroduce();
+		
+		katoTaro.setGivenName("太郎");
+		katoIchiro.setGivenName("一郎");
+		katoHanako.setGivenName("花子");
+		
+		katoTaro.execIntroduce(); // taroの紹介
 		System.out.print("\n"); // 改行で見やすくしているだけ
-		katoIchiro.execIntroduce();
+		katoIchiro.execIntroduce(); // ichiroの紹介
 		System.out.print("\n"); // 改行で見やすくしているだけ
-		katoHanako.execIntroduce();
+		katoHanako.execIntroduce(); // hanakoの紹介
 	}
 }

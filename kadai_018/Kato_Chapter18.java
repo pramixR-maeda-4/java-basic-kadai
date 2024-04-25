@@ -1,14 +1,9 @@
 package text.kadai_018;
 
 public abstract class Kato_Chapter18 {
-	public String familyName;
-	public String givenName;
-	public String address;
-	
-	public Kato_Chapter18() {
-		this.familyName="加藤";
-		this.address="東京都中野区〇×";
-	}
+	public String familyName = "加藤";
+	public String givenName = "";
+	public String address = "東京都中野区〇×";
 	
 	// 共通の紹介
 	public void commonIntroduce() {
@@ -23,7 +18,4 @@ public abstract class Kato_Chapter18 {
 		this.eachIntroduce();
 	}
 	
-	public void setGivenName(String name) {
-		this.givenName=name;
-	}
 }
