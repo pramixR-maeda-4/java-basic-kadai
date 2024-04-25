@@ -6,9 +6,9 @@ public class KatoExec_Chapter18 {
 		KatoIchiro_Chapter18 katoIchiro = new KatoIchiro_Chapter18();
 		KatoHanako_Chapter18 katoHanako = new KatoHanako_Chapter18();
 		
-		katoTaro.setGivenName("太郎");
-		katoIchiro.setGivenName("一郎");
-		katoHanako.setGivenName("花子");
+		katoTaro.setGivenName();
+		katoIchiro.setGivenName();
+		katoHanako.setGivenName();
 		
 		katoTaro.execIntroduce(); // taroの紹介
 		System.out.print("\n"); // 改行で見やすくしているだけ
